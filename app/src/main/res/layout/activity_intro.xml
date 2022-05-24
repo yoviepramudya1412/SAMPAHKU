@@ -11,14 +11,14 @@
         android:id="@+id/rectangle1"
         android:layout_width="409dp"
         android:layout_height="226dp"
-        android:layout_marginTop="123dp"
+        android:layout_marginTop="70dp"
         android:background="@drawable/rectangle_bg"
         app:circularflow_defaultRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -49,13 +49,13 @@
         android:id="@+id/constraintLayout"
         android:layout_width="320dp"
         android:layout_height="50dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/btn_bg"
         android:elevation="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
+        app:layout_constraintTop_toTopOf="@+id/rectangle1">
 
         <TextView
             android:id="@+id/textViews3"
@@ -75,9 +75,11 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="320dp"
         android:layout_height="50dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/btn_bg"
         android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout">

@@ -36,7 +36,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/editTextEmail"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="32dp"
@@ -52,7 +52,7 @@
                 android:textColorHint="#4071b2" />
 
             <EditText
-                android:id="@+id/editTextPersonName"
+                android:id="@+id/editTextPassword"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="32dp"
@@ -68,7 +68,7 @@
                 android:textColorHint="#4071b2" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
@@ -93,7 +93,7 @@
                     android:background="@drawable/btn_background"
                     android:drawableEnd="@drawable/facebook"
                     android:drawablePadding="16dp"
-                    android:padding="16dp"
+                    android:padding="12dp"
                     android:text="Facebook"
                     android:textColor="#4071b2"
                     android:textSize="16sp"

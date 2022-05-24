@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "869985862572",
+    "firebase_url": "https://banksampah-c9484-default-rtdb.firebaseio.com",
+    "project_id": "banksampah-c9484",
+    "storage_bucket": "banksampah-c9484.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869985862572:android:f4a99df445eb8ac8733009",
+        "android_client_info": {
+          "package_name": "com.example.Sayang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869985862572-8hcdgvvmu7vjnhdnmqujhlktcp326hag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Sayang",
+            "certificate_hash": "4ccdf353fabc39b172cc3c68ec7d212435321f9d"
+          }
+        },
+        {
+          "client_id": "869985862572-ocokfoffbjl19lv1q2mooie081c6as7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASWNWqlZTvJMmkznW4Bpe-Oi_jZldbCfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869985862572-ocokfoffbjl19lv1q2mooie081c6as7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

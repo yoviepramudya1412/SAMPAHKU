@@ -107,6 +107,7 @@
             android:backgroundTint="#01C15C"
             android:fontFamily="@font/open_sans_light"
             android:text="get_started"
+            android:onClick="get_started"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
