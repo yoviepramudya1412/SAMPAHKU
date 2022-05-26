@@ -5,31 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#01C15C"
-    tools:context="com.example.Sayang.MainActivity">
+    tools:context="com.example.Sayang.Play">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/rectangle1"
         android:layout_width="409dp"
         android:layout_height="226dp"
-        android:layout_marginTop="70dp"
         android:background="@drawable/rectangle_bg"
         app:circularflow_defaultRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="370dp"
-        android:layout_height="299dp"
-        android:layout_marginTop="160dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/img_0" />
+        app:layout_constraintVertical_bias="1.0" >
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
         android:id="@+id/textView"
@@ -54,8 +45,10 @@
         android:elevation="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/rectangle1">
+        app:layout_constraintTop_toTopOf="@+id/rectangle1"
+        app:layout_constraintVertical_bias="0.46">
 
         <TextView
             android:id="@+id/textViews3"
@@ -76,10 +69,9 @@
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="32dp"
         android:background="@drawable/btn_bg"
         android:elevation="3dp"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle1"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
@@ -98,4 +90,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="368dp"
+        android:layout_height="299dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

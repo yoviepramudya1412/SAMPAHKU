@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scrollViewiInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageBentuk1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/bentuk1" />
+
+            <TextView
+                android:id="@+id/textBentuk1"
+                android:layout_gravity="center"
+                android:textColor="@color/green_top"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_width="150pt"
+                android:layout_height="match_parent"
+                android:text="@string/bs_long1"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="201dp" />
+
+            <ImageView
+                android:id="@+id/imageBentuk2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/bentuk2" />
+
+            <TextView
+                android:id="@+id/textBentuk2"
+                android:layout_gravity="center"
+                android:textColor="@color/green_top"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_width="150pt"
+                android:layout_height="match_parent"
+                android:text="@string/bs_long2"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="201dp" />
+
+            <ImageView
+                android:id="@+id/imageBentuk3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/bentuk3" />
+
+            <TextView
+                android:id="@+id/textBentuk3"
+                android:layout_gravity="center"
+                android:textColor="@color/green_top"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_width="150pt"
+                android:layout_height="match_parent"
+                android:text="@string/bs_long3"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="201dp" />
+
+            <ImageView
+                android:id="@+id/imageBentuk4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/bentuk4" />
+
+            <TextView
+                android:id="@+id/textBentuk4"
+                android:layout_gravity="center"
+                android:textColor="@color/green_top"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_width="150pt"
+                android:layout_height="match_parent"
+                android:text="@string/bs_long4"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="201dp" />
+
+            <ImageView
+                android:id="@+id/imageBentuk5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/bentuk5" />
+
+            <TextView
+                android:id="@+id/textBentuk5"
+                android:layout_gravity="center"
+                android:textColor="@color/green_top"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_width="150pt"
+                android:layout_height="match_parent"
+                android:text="@string/bs_long5"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="201dp" />
+
+            <ImageView
+                android:id="@+id/imageBentuk6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/bentuk6" />
+
+            <TextView
+                android:id="@+id/textBentuk6"
+                android:layout_gravity="center"
+                android:textColor="@color/green_top"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_width="150pt"
+                android:layout_height="match_parent"
+                android:text="@string/bs_long6"
+                android:layout_marginBottom="100dp"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="201dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

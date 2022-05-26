@@ -4,54 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#01C15C"
-    android:backgroundTint="#01C15C"
+    android:background="@color/green_top"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
-        android:fontFamily="@font/open_sans_light"
-        android:text="dan Nabung Sampah"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="24dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <TextView
-        android:id="@+id/sampahku"
-        android:layout_width="211dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="109dp"
-        android:background="@drawable/btn_bg"
-        android:fontFamily="@font/open_sans_light"
-        android:text="Sampahku"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="40dp"
-        android:textStyle="bold"
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Sampahku" />
+        app:layout_constraintVertical_bias="1.0">
 
-    <ImageView
-        android:id="@+id/gambarawal"
-        android:layout_width="wrap_content"
-        android:layout_height="311dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="204dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/group_39_" />
+        <TextView
+            android:id="@+id/sampahku"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/open_sans_light"
+            android:text="Sampahku"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Sampahku" />
+
+        <ImageView
+            android:id="@+id/gambarawal"
+            android:layout_width="414dp"
+            android:layout_height="349dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/group_39_" />
+
+
+
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textView2"
@@ -68,7 +67,6 @@
         app:layout_constraintHorizontal_bias="0.231"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -84,34 +82,42 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="dan Nabung Sampah"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/rectangle1"
         android:layout_width="409dp"
         android:layout_height="226dp"
-        android:layout_marginTop="123dp"
+        android:layout_marginTop="60dp"
         android:background="@drawable/rectangle_bg"
         app:circularflow_defaultRadius="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_start"
             android:layout_width="301dp"
             android:layout_height="51dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="48dp"
             android:background="@drawable/btn_bg"
-            android:backgroundTint="#01C15C"
-            android:fontFamily="@font/open_sans_light"
-            android:text="get_started"
             android:onClick="get_started"
-            android:textColor="#FFFFFF"
-            android:textStyle="bold"
+            android:text="Get Started"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>

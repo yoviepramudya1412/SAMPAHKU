@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C6DDE7"
-    tools:context="com.example.Sayang.MainActivity">
+    tools:context="com.example.Sayang.Play">
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -36,7 +36,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/editName"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="32dp"
@@ -52,7 +52,7 @@
                 android:textColorHint="#4071b2" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/editTextEmail"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="32dp"
@@ -68,7 +68,7 @@
                 android:textColorHint="#4071b2" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/editTextPassword"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="32dp"
@@ -82,16 +82,41 @@
                 android:inputType="textPassword"
                 android:padding="8dp"
                 android:textColorHint="#4071b2" />
+            <EditText
+                android:id="@+id/editTextConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/edittext_background"
+                android:drawableStart="@drawable/password"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColorHint="#4071b2" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/btnsignup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
                 android:layout_marginTop="16dp"
                 app:srcCompat="@drawable/btn_login" />
 
+            <TextView
+                android:id="@+id/textSign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you have account? Sign in"
+                android:textAlignment="center"
+                android:textColor="#4071b2"
+                android:textStyle="bold"/>
+
         </LinearLayout>
+
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

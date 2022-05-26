@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C6DDE7"
-    tools:context="com.example.Sayang.MainActivity">
+    tools:context="com.example.Sayang.Play">
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -73,6 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
                 android:layout_marginTop="16dp"
+                android:scaleType="centerInside"
                 app:srcCompat="@drawable/btn_login" />
 
             <LinearLayout
@@ -118,13 +119,15 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Are you new user? Register"
                 android:textAlignment="center"
                 android:textColor="#4071b2"
                 android:textStyle="bold"/>
+
+
         </LinearLayout>
     </ScrollView>
 

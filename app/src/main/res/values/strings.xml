@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">Sayang</string>
+    <string name="app_name">SampahKu</string>
+    <string name="title_home">Home</string>
+    <string name="title_calculate">Calculate</string>
+    <string name="title_stat">Price Statistic</string>
+    <string name="title_contact">Contact</string>
+    <string name="title_card1">Dampak Sampah</string>
+    <string name="title_card2">Sifat Sampah</string>
+    <string name="title_card3">Bentuk Sampah</string>
+    <string name="title_card4">Sumber Sampah</string>
+
+
+    <string name="ss_long1">Sampah merupakan material sisa yang tidak diinginkan setelah berakhirnya suatu proses. Sampah didefinisikan oleh manusia menurut derajat keterpakaiannya, dalam proses-proses alam sebenarnya tidak ada konsep sampah, yang ada hanya produk-produk yang dihasilkan setelah dan selama proses alam tersebut berlangsung. Akan tetapi karena dalam kehidupan manusia didefinisikan konsep lingkungan maka sampah dapat dibagi menurut jenis-jenisnya.</string>
+    <string name="ss_long2">Berdasarkan sumbernya Sampah alam Sampah manusia Sampah konsumsi Sampah nuklir Sampah industri Sampah pertambangan</string>
+    <string name="bs_long1">Sampah padat adalah segala bahan buangan selain kotoran manusia, urine dan sampah cair. Dapat berupa sampah rumah tangga: sampah dapur, sampah kebun, plastik, metal, gelas dan lain-lain. Menurut bahannya sampah ini dikelompokkan menjadi sampah organik dan sampah anorganik. Sampah organik Merupakan sampah yang berasal dari barang yang mengandung bahan-bahan organik, seperti sisa-sisa sayuran, hewan, kertas, dan potongan-potongan kayu .</string>
+    <string name="bs_long2">Sampah cair adalah bahan cairan yang telah digunakan dan tidak diperlukan kembali dan dibuang ke tempat pembuangan sampah. Limbah hitam: sampah cair yang dihasilkan dari toilet. Sampah ini mengandung patogen yang berbahaya. Limbah rumah tangga: sampah cair yang dihasilkan dari dapur, kamar mandi dan tempat cucian. Sampah ini mungkin mengandung patogen.</string>
+    <string name="bs_long3">Sampah alam Sampah yang diproduksi di kehidupan liar diintegrasikan melalui proses daur ulang alami, seperti halnya daun-daun kering di hutan yang terurai menjadi tanah. Di luar kehidupan liar, sampah-sampah ini dapat menjadi masalah, misalnya daun-daun kering di lingkungan pemukiman.</string>
+    <string name="bs_long4">Sampah manusia Sampah manusia (Inggris: human waste) adalah istilah yang biasa digunakan terhadap hasil-hasil pencernaan manusia, seperti feses dan urin. Sampah manusia dapat menjadi bahaya serius bagi kesehatan karena dapat digunakan sebagai vektor (sarana perkembangan) penyakit yang disebabkan virus dan bakteri. Salah satu perkembangan utama pada dialektika manusia adalah pengurangan penularan penyakit melalui sampah manusia dengan cara hidup yang higienis dan sanitasi. Termasuk didalamnya adalah perkembangan teori penyaluran pipa (plumbing). Sampah manusia dapat dikurangi dan dipakai ulang misalnya melalui sistem urinoir tanpa air.</string>
+    <string name="bs_long5">Sampah konsumsi Sampah konsumsi merupakan sampah yang dihasilkan oleh (manusia) pengguna barang, dengan kata lain adalah sampah-sampah yang dibuang ke tempat sampah. Ini adalah sampah yang umum dipikirkan manusia. Meskipun demikian, jumlah sampah kategori ini pun masih jauh lebih kecil dibandingkan sampah-sampah yang dihasilkan dari proses pertambangan dan industri.</string>
+    <string name="bs_long6">Limbah radioaktif Sampah nuklir merupakan hasil dari fusi nuklir dan fisi nuklir yang menghasilkan uranium dan thorium yang sangat berbahaya bagi lingkungan hidup dan juga manusia. Oleh karena itu sampah nuklir disimpan ditempat-tempat yang tidak berpotensi tinggi untuk melakukan aktivitas tempat-tempat yang dituju biasanya bekas tambang garam atau dasar laut (walau jarang namun kadang masih dilakukan).</string>
+
 </resources>
